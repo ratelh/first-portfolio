@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="웹 퍼블리셔, 포트폴리오">
+    <meta name="description" content="1차 포트폴리오 커뮤니티 사이트 리뉴얼 입니다.">
+    <meta name="robots" content="all">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>스레딕 리뉴얼</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="alert">
+        <p><span lang="en">NOTICE</span><br />
+            본 페이지는 개인 포트폴리오 사이트로 해당 사이트와는 무관합니다. <br />
+            <a href="http://thredic.com/">http://thredic.com</a>으로 이동바랍니다<br />
+            문의 : rollsroyce1921@gmail.com</p>
+        <button type="button" class="hidebtn">팝업창 닫기</button>
+    </div>
+    <div class="skip">
+        <a href="#content">본문으로 바로가기</a>
+    </div>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html"><span class="blind">스레딕</span></a></h1>
+            <nav class="clearfix nav">
+                <h2 class="hidden">주메뉴</h2>
+                <ul class="header__gnb">
+                    <li><a href="list.html">전체글보기</a></li>
+                    <li><a href="list.html">레전드</a></li>
+                    <li><a href="list.html">일기</a></li>
+                    <li><a href="list.html">꿈</a></li>
+                </ul>
+                <ul class="header__memberlinks">
+                    <li class="memberlinks__btn--login"><a href="#">로그인</a></li>
+                    <li class="memberlinks__btn--singup"><a href="#">회원가입</a></li>
+                </ul>
+                <div class="header__memberlinks--popupbg">
+                    <iframe class="header__memberlinks--popup" src="popup/login_form.html" title="회원가입, 로그인 팝업창">
+                    </iframe>
+                    <button class="hidebtn">로그인 팝업창 닫기</span></button>
+                </div>
+                <!--//회원가입, 로그인 팝업-->
+            </nav>
+        </div>
+    </header>
+    <div class="container clearfix">
+        <main class="main" id="content">
+            <section>
+                <h2>최근 올라온 이미지</h2>
+                <div class="section--latestimg">
+                    <ul class="clearfix">
+                        <li>
+                            <dl>
+                                <dt class="section--latestimg__category"><a href="list.html">[아이돌]</a></dt>
+                                <dd class="section--latestimg__img">
+                                    <a href="#">
+                                        <img src="images/newimg01.jpg" alt="마이크 낀 남자아이돌">
+                                    </a>
+                                </dd>
+                                <dd class="ellipsis"><a href="page.html">컬러렌즈 잘어울리는 남돌이 누구있을까?</a></dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt class="section--latestimg__category"><a href="list.html">[동인]</a></dt>
+                                <dd class="section--latestimg__img">
+                                    <a href="#">
+                                        <img src="images/newimage02.gif" alt="꽃 벌 레몬 이모티콘과 이모지 글씨">
+                                    </a>
+                                </dd>
+                                <dd class="ellipsis"><a href="page.html">이모지 키워드</a></dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt class="section--latestimg__category"><a href="list.html">[뒷담화]</a></dt>
+                                <dd class="section--latestimg__img">
+                                    <a href="#">
+                                        <img src="images/newimg03.jpg" alt="명탐정코난의 코난과 하이바라">
+                                    </a>
+                                </dd>
+                                <dd class="ellipsis"><a href="page.html">명탐정코난의 하이바라 아이(홍장미)와 그 팬덤을 까는 스레 12판</a></dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt class="section--latestimg__category"><a href="list.html">[잡담]</a></dt>
+                                <dd class="section--latestimg__img">
+                                    <a href="#">
+                                        <img src="images/video_thumb.jpg" alt="라비 동영상 썸네일">
+                                    </a>
+                                </dd>
+                                <dd class="ellipsis"><a href="page.html">내가 애니송을 좋아하는 것은 오타쿠이기 때문이 아니야</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <div class="section--latestimg__modal">
+                        <div class="section--latestimg__modal__contents">
+                            <span>[동인]</span>
+                            <p>1 <span>이름 : 이름없음 2019/02/15 16:13:52 ID : LhtjBtfWnWr</span>
+                                캐짜는데 도저히 생각이 안난다 크아악
+                                이모티콘 세 개를 남겨주면 고마울 것 같아..</p>
+                            <div>
+                                <img src="" alt="" class="modal_img">
+                            </div>
+                            <div>
+                                <p>
+                                    2 <span>이름 : 스레주 2019/02/15 16:14:25 ID : LhtjBtfWnWr</span>
+                                    🔫🐯💐 이런식으로..
+                                </p>
+                                <p>3 <span>이름 : 이름없음 2019/02/15 16:20:40 ID : dvirta2nDyY</span>
+                                    🎩🦊🎭 이런 느낌으로??</p>
+                                <p> 5 <span>이름 : 이름없음 2019/02/15 17:04:21 ID : Ph84IGq7xWn</span>
+                                    🎰⏱🚪</p>
+                            </div>
+                            <a href="page.html">해당 게시글로 이동</a>
+                            <a href="" class="hidebtn">닫기</a>
+                        </div>
+                        <!--//section1_modal_contents-->
+                    </div>
+                    <!--//section1_modal-->
+                    <p class="pre_next_btn">
+                        <a href=""><i class="far fa-caret-square-left"></i></a>
+                        <a href=""><i class="far fa-caret-square-right"></i></a>
+                    </p>
+                </div>
+                <!--//section1_box-->
+            </section>
+            <!--//최근 올라온 이미지 섹션-->
+            <section>
+                <h2 class="hidden">인기글_레전드</h2>
+                <div class="section_hot_legend clearfix">
+                    <div class="hot_list">
+                        <h3><span><i class="fas fa-trophy"></i></span> 인기글</h3>
+                        <div class="clearfix">
+                            <ol>
+                                <li>
+                                    <a href="page.html">
+                                        [게시판]새벽2시마다 울리는 모텔 전화콜 (실제경험담)
+                                    </a>
+                                    <span>9</span>
+                                </li>
+                                <li>
+                                    <a href="page.html">[게시판]예전에 썼던 짧은 글인데 다시 보니 무섭다</a>
+                                    <span>11</span>
+                                </li>
+                                <li>
+                                    <a href="page.html">[게시판]산에서 쪽지같은거 봤는데 찝찝하다</a>
+                                    <span>11</span>
+                                </li>
+                                <li>
+                                    <a href="page.html">[게시판]나의 아름다운 그이를 묻어줄꺼양</a>
+                                    <span>22</span>
+                                </li>
+                                <li>
+                                    <a href="page.html">[게시판]24시간 안에 1000레스를 채워 보자</a>
+                                    <span>9</span>
+                                </li>
+                            </ol>
+                            <ol start="6">
+                                <li>
+                                    <a href="page.html">[게시판]중국에서 팔찌를 주었는데 이상한 일들이 생겨.</a>
+                                    <span>8</span>
+                                </li>
+                                <li>
+                                    <a href="page.html">[게시판]우리학교는 남고다</a>
+                                    <span>8</span>
+                                </li>
+                                <li>
+                                    <a href="page.html">[게시판]절친이 탈북인이었다</a>
+                                    <span>11</span>
+                                </li>
+                                <li>
+                                    <a href="page.html">[게시판]일상 영어를 가르쳐 주는 스레</a>
+                                    <span>20</span>
+                                </li>
+                                <li>
+                                    <a href="page.html">[게시판]일베 메모</a>
+                                    <span>08</span>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!--//hot_list-->
+                    <div class="legend_list">
+                        <h3><span><i class="fas fa-trophy"></i></span> 레전드</h3>
+                        <div class="legend_list_preview">
+                            <img src="images/legend_image.jpg" alt="검은 그림자가 진 사람 눈 모양">
+                            <p><strong>3년동안 꿈에 갇혀있었어 썼던 진짜 스레야</strong></p>
+                            <p class="legend_list_previewtext">그동안 오지 못했던 거 진짜 미안해.
+                                바쁜 일상 때문에 잊고 지냈던 것도 있고...
+                                페북에서 우연히 떠돌아다니는거 보고 다시 들어왔는데
+                                밑에 보니까 나인척 하는 사람도 있더라?...
+                                왜 그런 사칭을 하는지는 모르겠고, 내가 진짜 그 글을 쓴 스레라는 걸 증명할 방법도 없지만 믿어줬으면 해</p>
+                            <p><a href="page.html">본문 더보기</a></p>
+                        </div>
+                        <!--//legend_list_preview-->
+                    </div>
+                    <!--//legend list-->
+                </div>
+                <!--//section_hot_legend-->
+            </section>
+            <!--//인기글/레전드글 섹션-->
+            <section>
+                <h2>최신글</h2>
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">놀이</a></li>
+                        <li><a href="#tabs-2">사회</a></li>
+                        <li><a href="#tabs-3">생활</a></li>
+                        <li><a href="#tabs-4">문화</a></li>
+                        <li><a href="#tabs-5">취미</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <ul class="clearfix">
+                            <li class="new_post">
+                                <ul class="sub_board_link">
+                                    <li><a href="list.html">괴담</a></li>
+                                    <li><a href="list.html">바보</a></li>
+                                    <li><a href="list.html">미스터리</a></li>
+                                    <li><a href="list.html">앵커</a></li>
+                                    <li><a href="list.html">미궁게임</a></li>
+                                    <li><a href="list.html">난장판</a></li>
+                                </ul>
+                            </li>
+                            <li class="big_size_post new_post">
+                                <a href="page.html">
+                                    <div class="scale"><img src="images/new_post1.jpg" alt="문"></div>
+                                    <div class="tit_bg">
+                                        <strong>동문서답하는 스레🌟</strong>
+                                        <span>바보</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="page.html">
+                                    <div class="scale"><img src="images/new_post2.jpg" alt="성"></div>
+                                    <div>
+                                        <strong>자기 성씨 쓰고 가는 스레!</strong>
+                                        <span>바보</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="page.html">
+                                    <div class="scale"><img src="images/new_post3.jpg" alt="개"></div>
+                                    <div>
+                                        <strong>(나이상)어린 것과 큰 것의 차이점</strong>
+                                        <span>바보</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="page.html">
+                                    <div class="scale"><img src="images/new_post4.jpg" alt="흐린 사람 형상"></div>
+                                    <div>
+                                        <strong>오늘 오후 3시쯤에 누가 문 두들겼는데 미스터리...</strong>
+                                        <span>미스터리</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="page.html">
+                                    <div class="scale"><img src="images/new_post5.jpg" alt="우주비행사"></div>
+                                    <div>
+                                        <strong>시간의 여행</strong>
+                                        <span>미궁게임</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="page.html">
+                                    <div class="scale"><img src="images/new_post6.jpg" alt="원숭이 세마리"></div>
+                                    <div>
+                                        <strong>미스테리인거 같은데 레더들이 판단해줘,,</strong>
+                                        <span>미스터리</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="page.html">
+                                    <div class="scale"><img src="images/new_post7.jpg" alt="엽서"></div>
+                                    <div>
+                                        <strong>치유물 라디오 - 치명적인 유해물이 되는 라디오 #3</strong>
+                                        <span>앵커</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="page.html">
+                                    <div class="scale"><img src="images/new_post8.jpg" alt="해파리"></div>
+                                    <div>
+                                        <strong>미친 어떡하지 남자애 거기를 축구공으로 걷어차버렸어</strong>
+                                        <span>바보</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="list.html">놀이 - 최신글 더보기</a>
+                    </div>
+                    <!--//tabs-1-->
+                    <div id="tabs-2">
+                        <ul class="clearfix">
+                            <li class="new_post">
+                                <ul class="sub_board_link">
+                                    <li><a href="">잡담</a></li>
+                                    <li><a href="">고민상담</a></li>
+                                    <li><a href="">하소연</a></li>
+                                    <li><a href="">흑역사</a></li>
+                                    <li><a href="">역사</a></li>
+                                    <li><a href="">뒷담화</a></li>
+                                    <li><a href="">공부</a></li>
+                                </ul>
+                            </li>
+                            <li class="big_size_post new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_2-1.jpg" alt="비오는 날 우산쓴 사람"></div>
+                                    <div class="tit_bg">
+                                        <strong>비온당</strong>
+                                        <span>잡담</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_2-2.jpg" alt="여자와 남자"></div>
+                                    <div>
+                                        <strong>중 2가 관계 가지는거 빨라?</strong>
+                                        <span>고민상담</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_2-3.jpg" alt="물음표 표시"></div>
+                                    <div>
+                                        <strong>논리적으로 나를 이해시키는 스레</strong>
+                                        <span>고민상담</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_2-4.jpg" alt="여러사람이 말하는 그림"></div>
+                                    <div>
+                                        <strong>아무말 좀 하고 가줘</strong>
+                                        <span>잡담</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_2-5.jpg" alt="감옥에 갇힌 사람"></div>
+                                    <div>
+                                        <strong>급식 단체로 소년원 보내려 했었던 에피소드</strong>
+                                        <span>잡담</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_2-6.jpg" alt="지폐 뭉치"></div>
+                                    <div>
+                                        <strong>월평균소득을 어떻게 확인해?</strong>
+                                        <span>잡담</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_2-7.jpg" alt="누워있는 세 사람"></div>
+                                    <div>
+                                        <strong>20대 후반 친구들과의 인간관계</strong>
+                                        <span>고민상담</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_2-8.jpg" alt="일본랭킹사진"></div>
+                                    <div>
+                                        <strong>무개념 팬들 까자.</strong>
+                                        <span>뒷담화</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="list.html">사회 - 최신글 더보기</a>
+                    </div>
+                    <!--//tabs-2-->
+                    <div id="tabs-3">
+                        <ul class="clearfix">
+                            <li class="new_post">
+                                <ul class="sub_board_link">
+                                    <li><a href="">연애</a></li>
+                                    <li><a href="">퀴어</a></li>
+                                    <li><a href="">알바</a></li>
+                                    <li><a href="">해외</a></li>
+                                    <li><a href="">패션</a></li>
+                                    <li><a href="">미용</a></li>
+                                    <li><a href="">음식</a></li>
+                                </ul>
+                            </li>
+                            <li class="big_size_post new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_3-1.jpg" alt="하트모양 풀"></div>
+                                    <div class="tit_bg">
+                                        <strong>좋아하는 사람 이름불러보자</strong>
+                                        <span>퀴어</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_3-2.jpg" alt="수술실"></div>
+                                    <div>
+                                        <strong>아직도 처녀막 수술이 많이 하는 이유가 뭐라 생각하니?</strong>
+                                        <span>연애</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_3-3.jpg" alt="모자쓴 사람"></div>
+                                    <div>
+                                        <strong>얼굴 취향 적어보자....</strong>
+                                        <span>퀴어</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_3-4.jpg" alt="어깨동무하고 있는 친구"></div>
+                                    <div>
+                                        <strong>사랑 vs 우정</strong>
+                                        <span>퀴어</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_3-5.jpg" alt="종이 위에 펜으로 그린 하트모양">
+                                    </div>
+                                    <div>
+                                        <strong>짝사랑 하는 사람 생일+성별+나이쓰고 가는 스레</strong>
+                                        <span>연애</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_3-6.jpg" alt="손잡고 걷는 커플"></div>
+                                    <div>
+                                        <strong>데이트해서 더는 바랄게없다</strong>
+                                        <span>연애</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_3-7.jpg" alt="기도하는 사람"></div>
+                                    <div>
+                                        <strong>난 누구보다 이 이 아이의 행복을 바라는 사람</strong>
+                                        <span>퀴어</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_3-8.jpg" alt="궁금해하는 그림"></div>
+                                    <div>
+                                        <strong>판단 좀</strong>
+                                        <span>퀴어</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="list.html">생활 - 최신글 더보기</a>
+                    </div>
+                    <!--//tabs-3-->
+                    <div id="tabs-4">
+                        <ul class="clearfix">
+                            <li class="new_post">
+                                <ul class="sub_board_link">
+                                    <li><a href="">게임</a></li>
+                                    <li><a href="">아이돌</a></li>
+                                    <li><a href="">애니</a></li>
+                                    <li><a href="">음악</a></li>
+                                    <li><a href="">영화</a></li>
+                                    <li><a href="">도서</a></li>
+                                </ul>
+                            </li>
+                            <li class="big_size_post new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-1.jpg" alt="피카츄"></div>
+                                    <div class="tit_bg">
+                                        <strong>90년대생 투니버스 전성기 친구들 모여라</strong>
+                                        <span>애니</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-2.jpg" alt="콘서트장"></div>
+                                    <div>
+                                        <strong>망돌 팬이라서 열등감이 많아</strong>
+                                        <span>아이돌</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-3.jpg" alt="프로듀스 출연자"></div>
+                                    <div>
+                                        <strong>데뷔했음 좋겠는 프듀픽 전부 적어봐</strong>
+                                        <span>아이돌</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-4.jpg" alt="공연장"></div>
+                                    <div>
+                                        <strong>방탄소년단은 왜 그렇게 욕을 먹는걸까</strong>
+                                        <span>아이돌</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-5.jpg" alt="심즈 게임"></div>
+                                    <div>
+                                        <strong>심즈 4 확장팩 말이야</strong>
+                                        <span>게임</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-6.jpg" alt="합창단 그림"></div>
+                                    <div>
+                                        <strong>자기가 피해봤거나, 세뇌시킨 수능금지곡 알리는 스레드</strong>
+                                        <span>음악</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-7.jpg" alt="콘서트장"></div>
+                                    <div>
+                                        <strong>요즘 무명아이돌 방송국 가면 많이 보는데, 왜 MUSIC BANK 에는 다 안나올까?</strong>
+                                        <span>아이돌</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-8.jpg" alt="메이플스토리 호크아이"></div>
+                                    <div>
+                                        <strong>너희들은 게임 캐릭터의 어느 부분이 가장 좋아?</strong>
+                                        <span>게임</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="list.html">문화 - 최신글 더보기</a>
+                    </div>
+                    <!--//tabs-4-->
+                    <div id="tabs-5">
+                        <ul class="clearfix">
+                            <li class="new_post">
+                                <ul class="sub_board_link">
+                                    <li><a href="">게임</a></li>
+                                    <li><a href="">아이돌</a></li>
+                                    <li><a href="">애니</a></li>
+                                    <li><a href="">음악</a></li>
+                                    <li><a href="">영화</a></li>
+                                    <li><a href="">도서</a></li>
+                                </ul>
+                            </li>
+                            <li class="big_size_post new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-1.jpg" alt="피카츄"></div>
+                                    <div class="tit_bg">
+                                        <strong>90년대생 투니버스 전성기 친구들 모여라</strong>
+                                        <span>애니</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-2.jpg" alt="콘서트장"></div>
+                                    <div>
+                                        <strong>망돌 팬이라서 열등감이 많아</strong>
+                                        <span>아이돌</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-3.jpg" alt="프로듀스 출연자"></div>
+                                    <div>
+                                        <strong>데뷔했음 좋겠는 프듀픽 전부 적어봐</strong>
+                                        <span>아이돌</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-4.jpg" alt="공연장"></div>
+                                    <div>
+                                        <strong>방탄소년단은 왜 그렇게 욕을 먹는걸까</strong>
+                                        <span>아이돌</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-5.jpg" alt="심즈 게임"></div>
+                                    <div>
+                                        <strong>심즈 4 확장팩 말이야</strong>
+                                        <span>게임</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-6.jpg" alt="합창단 그림"></div>
+                                    <div>
+                                        <strong>자기가 피해봤거나, 세뇌시킨 수능금지곡 알리는 스레드</strong>
+                                        <span>음악</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-7.jpg" alt="콘서트장"></div>
+                                    <div>
+                                        <strong>요즘 무명아이돌 방송국 가면 많이 보는데, 왜 MUSIC BANK 에는 다 안나올까?</strong>
+                                        <span>아이돌</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="new_post">
+                                <a href="">
+                                    <div class="scale"><img src="images/new_post_4-8.jpg" alt="메이플스토리 호크아이"></div>
+                                    <div>
+                                        <strong>너희들은 게임 캐릭터의 어느 부분이 가장 좋아?</strong>
+                                        <span>게임</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="list.html">취미 - 최신글 더보기</a>
+                    </div>
+                    <!--//tabs-5-->
+                </div>
+                <!--//tabs-->
+            </section>
+            <!--//최신글 섹션-->
+        </main>
+        <aside class="sidebar">
+            <form action="#" method="get" class="sidebar__form--search">
+                <input type="text" placeholder="검색" id="search">
+                <label for="search"><span class="blind">검색</span></label>
+                <button><i class="fas fa-search"></i></button>
+            </form>
+            <div class="banner">
+                <ul class="slide">
+                    <li><a href=""><img src="images/banner01.gif" alt="공지사항"></a></li>
+                    <li><a href=""><img src="images/banner02.gif" alt="스레딕위키"></a></li>
+                </ul>
+                <p class="banner__controls">
+                    <a href="" id="prev"><i class="fas fa-chevron-left"></i></a>
+                    <a href="" id="next"><i class="fas fa-chevron-right"></i></a>
+                </p>
+                <div class="banner__pager"></div>
+            </div>
+            <div class="list-favoritemark">
+                <h3 lang="en"><a href=""><span><i class="fas fa-star"></i></span> favorite</a></h3>
+                <ul>
+                </ul>
+            </div>
+            <div class="accordion">
+                <button><i class="fas fa-caret-down"></i> 놀이</button>
+                <ul>
+                    <li><a href="list.html">괴담</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">바보</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">미스터리</a><a href="#"><span><i class="fas fa-star"></i><span
+                                    class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">앵커</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">미궁게임</a><a href="#"><span><i class="fas fa-star"></i><span
+                                    class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">난장판</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                </ul>
+                <button><i class="fas fa-caret-down"></i> 사회</button>
+                <ul>
+                    <li><a href="list.html">잡담</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">고민상담</a><a href="#"><span><i class="fas fa-star"></i><span
+                                    class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">하소연</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">흑역사</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">역사</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">뒷담화</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">공부</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                </ul>
+                <button><i class="fas fa-caret-down"></i> 생활</button>
+                <ul>
+                    <li><a href="list.html">연애</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">퀴어</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">알바</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">해외</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">패션</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">미용</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">음식</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                </ul>
+                <button><i class="fas fa-caret-down"></i> 문화</button>
+                <ul>
+                    <li><a href="list.html">게임</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">아이돌</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">애니</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">음악</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">영화</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">도서</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                </ul>
+                <button><i class="fas fa-caret-down"></i> 취미</button>
+                <ul>
+                    <li><a href="list.html">동인</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">상황극</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">창작소설</a><a href="#"><span><i class="fas fa-star"></i><span
+                                    class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">취향</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">커플링</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                    <li><a href="list.html">자캐</a><a href="#"><span><i class="fas fa-star"></i><span class="blind">즐겨찾기
+                                    추가하기</span></span></a></li>
+                </ul>
+            </div>
+            <!--//아코디언-->
+            <div class="usercount">
+                <span><i class="fas fa-user"></i></span>
+                <span>000</span>
+            </div>
+            <!--//usercount-->
+            <a href="#logo" class="back_to_top"><i class="fas fa-arrow-up"></i></a>
+        </aside>
+    </div>
+    <footer>
+        <p>
+            <a href="aboutus.html">사이트소개</a>
+            <a href="#">이용규칙</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">문의</a>
+            <span lang="en">Copyright &copy; Thredic. All rights reserved.</span>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
